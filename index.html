@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Meu Perfil</title>
-  </head>
-  <body>
-    <ul>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meu Perfil</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+  <nav class="Barra-de-navegação">
+    <ul id="menu">
       <li>
         <a href="index.html"> Home</a>
       </li>
@@ -15,38 +19,65 @@
         <a href="contato.html"> Contato</a>
       </li>
     </ul>
+  </nav>
 
-    <h1>Sobre o Italo</h1>
+  <div>
+    <h1 class="titulo center" id="titulo">Helo. <br />Ink.</h1>
+  </div>
 
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero dolorum
-      deleniti officiis perspiciatis, temporibus repellendus hic? Sit architecto
-      accusamus omnis molestiae molestias dignissimos tempora dolore ad aut ab,
-      eaque reprehenderit? Lorem ipsum dolor, sit amet consectetur adipisicing
-      elit. Ipsam maiores quibusdam provident quidem asperiores quae quis
-      accusantium nemo. Ex quae omnis, iure quia numquam dolorum in ipsam
-      accusamus quidem minus.
-    </p>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero dolorum
-      deleniti officiis perspiciatis, temporibus repellendus hic? Sit architecto
-      accusamus omnis molestiae molestias dignissimos tempora dolore ad aut ab,
-      eaque reprehenderit? Lorem ipsum dolor sit amet consectetur adipisicing
-      elit. Rerum magni natus, magnam eius, vitae inventore libero quo cum dolor
-      dicta sint reprehenderit aliquid quidem soluta. Dolorem ducimus molestiae
-      ea quia!
-    </p>
-    <img src="assets/img/500x500.jpg" alt="O tal do dj azeitona" />
+  <section class="flex-container">
+    <div>
+      <img height="300px" class="foto1 br-50" id="foto1" src="assets/img/foto_helo.jpg" alt="Foto da Helo" />
+    </div>
+    
+    <div class="p-30">
+      <p class="paragrafo justify" id="p1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+        dolorum deleniti officiis perspiciatis, temporibus repellendus hic?
+        Sit architecto accusamus omnis molestiae molestias dignissimos tempora
+        dolore ad aut ab, eaque reprehenderit? Lorem ipsum dolor, sit amet
+        consectetur adipisicing elit. Ipsam maiores quibusdam provident quidem
+        asperiores quae quis accusantium nemo. Ex quae omnis, iure quia
+        numquam dolorum in ipsam accusamus quidem minus.
+      </p>
+      <p class="paragrafo justify" id="p2">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+        dolorum deleniti officiis perspiciatis, temporibus repellendus hic?
+        Sit architecto accusamus omnis molestiae molestias dignissimos tempora
+        dolore ad aut ab, eaque reprehenderit? Lorem ipsum dolor, sit amet
+        consectetur adipisicing elit. Ipsam maiores quibusdam provident quidem
+        asperiores quae quis accusantium nemo. Ex quae omnis, iure quia
+        numquam dolorum in ipsam accusamus quidem minus.
+      </p>
+    </div>
+    
+  </section>
 
-    <h2>Olha essas pias</h2>
-    <iframe
-      width="560"
-      height="315"
-      src="https://www.youtube.com/embed/VIAVUtxdMGw"
-      title="YouTube video player"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen
-    ></iframe>
-  </body>
+  <div class="center">
+    <h2 class="subtitulo" id="subtitulo1">Eu também faço música!</h2>
+  </div>
+  <div class="flex-container mb-50">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/rYOK4DG5y7Q" title="YouTube video player"
+      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+  </div>
+  <hr />
+  <footer>
+    <div class="flex-container">
+      <a href="https://www.instagram.com" target="“_blank”">
+        <img class="tm-ft-rede-social p-30" src="assets/img/logos/instagram.png" alt="Logo do instagram" />
+      </a>
+
+      <a href="https://www.linkedin.com/in/italo-vieira-600973208/ target=“_blank”"><img class="tm-ft-rede-social"
+          src="assets/img/logos/logotipo-do-linkedin-square.png" alt="Logo do instagramLogo do linkdin" />
+      </a>
+
+      <a href="https://github.com/heiitalo target=“_blank”"><img class="tm-ft-rede-social p-30"
+          src="assets/img/logos/github.png" alt="Logo do instagramLogo do linkdin" />
+      </a>
+    </div>
+    <p class="center">Site feito Por Italo Vieira &copy;</p>
+  </footer>
+</body>
+
 </html>
